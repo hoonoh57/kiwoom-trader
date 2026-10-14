@@ -54,3 +54,19 @@ data/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ===== kiwoom-trader runtime (DESIGN.md 5장) =====
+state/*
+!state/*.fixture.json
+artifacts/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.corrupt-*
+.token-cache.json
+
+# ===== Web (Vite/TS) =====
+node_modules/
+web/dist/
+*.tsbuildinfo
+
